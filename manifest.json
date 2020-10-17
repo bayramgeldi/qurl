@@ -1,0 +1,29 @@
+{
+  "name": "Qurl",
+  "version": "0.0.1",
+  "author": "bayramgeldi bayryyev <bayramgeldi.bayriyev@gmail.com>",
+  "description": "Tool to generate QRCode from Url!",
+  "permissions": ["activeTab", "declarativeContent", "storage", "tabs"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icons/icon@16.png",
+      "32": "images/icons/icon@32.png",
+      "64": "images/icons/icon@64.png",
+      "128": "images/icons/icon@128.png",
+      "512": "images/icons/icon@512.png"
+    }
+  },
+  "icons": {
+    "16": "images/icons/icon@16.png",
+    "32": "images/icons/icon@32.png",
+    "64": "images/icons/icon@64.png",
+    "128": "images/icons/icon@128.png",
+    "512": "images/icons/icon@512.png"
+  },
+  "manifest_version": 2
+}

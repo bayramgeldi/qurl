@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./assets/materialize/css/materialize.min.css">
+    <style>
+      .row{
+        margin:0;
+      }
+      .col{
+        padding: 0 !important;
+      }
+      .card{
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-image" id="qrcode" style="width: 240px; height: 240px">
+
+        </div>
+        <div class="card-content">
+          <p id="url">URL</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="./assets/qrcodejs/qrcode.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
