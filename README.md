@@ -1,2 +1,2 @@
 # qurl
-Tiny Extension to create qrcode from url.
+Tiny Chrome Extension to create qrcode from url.
